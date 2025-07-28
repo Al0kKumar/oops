@@ -17,3 +17,11 @@ userdefined copy constructor => deep copy is made
 
 
 destructor => its work is to deallocate the memory as the object scope ends 
+
+
+
+4 pillars of OOPs :-
+1. Encapsulation(a.k.a data/information hiding) - wrapping up of data members/properties and functions/methods/behaviour in a single 
+entity Class just like a capsule.
+2. Inheritance - Inheriting properties and functions from parent class to child class.
+
