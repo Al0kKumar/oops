@@ -24,4 +24,16 @@ destructor => its work is to deallocate the memory as the object scope ends
 1. Encapsulation(a.k.a data/information hiding) - wrapping up of data members/properties and functions/methods/behaviour in a single 
 entity Class just like a capsule.
 2. Inheritance - Inheriting properties and functions from parent class to child class.
+3. Polymorphism -  
+type of Polymorphism :-
+  *Compile time Polymorphism :-
+    *function overloading - same function name will work only if one has 0 parameters/arguments , others have differnt maybe 1,2,or more ,
+    and differnt return types won't make a diffence so it won't work.
+    *Operator overloading - we can do some custom work from normal Operators like , we can do substarction using + via doing
+    some custom stuff.
+  *Runtime Polymorphism :-
+    *Method Overriding - done via Inheritance , here some child class can change the content of a function/methods that he 
+    inherites from parent but but the name of function should be same as the parent.
+4. Abstraction(a.k.a Implementation hiding) - showing only what is needed and not the stuff how things work under the hood.
+
 
