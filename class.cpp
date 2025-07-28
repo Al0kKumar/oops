@@ -4,7 +4,7 @@ using namespace std;
 class Hero{
     
     // properties
-    
+
     private:
     int health;
 
@@ -16,6 +16,11 @@ class Hero{
     // parameterised contructor
     Hero(int health){
         this->health = health;
+    }
+    
+    // destructor
+    ~Hero(){
+
     }
     
     

@@ -5,6 +5,8 @@ object => instance of class
 
 
 constructor => its a way of allocating some values in the object during the process of object creation-> with parameterised constructor
+constructor and destructor both names are same as of the class , both are called only once during creation and deletion of object
+for both respectively
 
 
 default copy constructor => shallow copy of a object is copied , it means that if the object from which new object in copied ,
@@ -12,3 +14,6 @@ if there is any change in the values of the properties then it will change in al
 
 
 userdefined copy constructor => deep copy is made 
+
+
+destructor => its work is to deallocate the memory as the object scope ends 
