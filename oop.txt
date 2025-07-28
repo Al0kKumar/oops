@@ -1,0 +1,4 @@
+class => is a user defined data type . eg Hero Alok - here Hero is class and Alok is a object with all properties and 
+behaviour of class Hero
+
+object => instance of class 
