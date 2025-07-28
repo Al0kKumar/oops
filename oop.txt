@@ -2,3 +2,13 @@ class => is a user defined data type . eg Hero Alok - here Hero is class and Alo
 behaviour of class Hero
 
 object => instance of class 
+
+
+constructor => its a way of allocating some values in the object during the process of object creation-> with parameterised constructor
+
+
+default copy constructor => shallow copy of a object is copied , it means that if the object from which new object in copied ,
+if there is any change in the values of the properties then it will change in all its copies 
+
+
+userdefined copy constructor => deep copy is made 

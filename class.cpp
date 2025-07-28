@@ -4,13 +4,21 @@ using namespace std;
 class Hero{
     
     // properties
-    string name;
-    char level;
     
     private:
     int health;
 
     public:
+    string name;
+    char level;
+
+
+    // parameterised contructor
+    Hero(int health){
+        this->health = health;
+    }
+    
+    
     int gethealth(){
         return health;
     }
@@ -22,15 +30,19 @@ class Hero{
 
 
 int main() {
+
+    Hero temp(20);
+
+
      
     // created an object
-    Hero h1;
-    int take;
-    cout << "health is " << h1.gethealth() << endl;
-    cout << "set health :" << endl;
-    cin >> take;
-    h1.sethealth(take);
-    cout << "health is " << h1.gethealth() << endl;
+    // Hero h1;
+    // int take;
+    // cout << "health is " << h1.gethealth() << endl;
+    // cout << "set health :" << endl;
+    // cin >> take;
+    // h1.sethealth(take);
+    // cout << "health is " << h1.gethealth() << endl;
     
     // cout << "health is " << h1.health << endl;
     //cout << "size of " << sizeof(h1) << endl;
